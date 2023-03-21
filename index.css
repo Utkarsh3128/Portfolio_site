@@ -188,7 +188,7 @@ li:hover {
 
 @media screen and (max-width: 1024px) {
     .nav-links {
-        width: 50%;
+        width: 100%;
     }
 }
 
@@ -206,7 +206,7 @@ li:hover {
     }
 }
 
-@media screen and (max-width: 820px){
+/* @media screen and (max-width: 820px){
     .nav-links {
         position: absolute;
         right: 0px;
@@ -284,7 +284,8 @@ li:hover {
     .mobile-project {
         display: block;
     }
-}
+} */
+
 @media screen and (max-width: 768px) {
 
     html,
@@ -301,7 +302,7 @@ li:hover {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 100%;
+        width: 100%!important;
         height: 95%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
@@ -314,7 +315,7 @@ li:hover {
     }
 
     .burger {
-        display: block;
+        display: block!important;
     }
 
     .inner-section {
@@ -327,15 +328,15 @@ li:hover {
     }
 
     .section-heading {
-        font-size: 1.5rem;
+        font-size: 1.5rem!important;
     }
 
     .changeText {
-        font-size: 1.2rem;
+        font-size: 1.2rem !important;
     }
 
     .section-para {
-        font-size: 1rem;
+        font-size: 1rem !important;
     }
 
     .section-image {
@@ -354,24 +355,24 @@ li:hover {
     }
 
     .skill-text {
-        font-size: 2rem;
+        font-size: 2rem!important;
     }
 
     .skills {
-        display: none;
+        display: none!important;
     }
 
     .mobile-skills {
-        display: grid;
+        display: grid!important;
         width: 300px;
     }
 
     .project {
-        display: none;
+        display: none!important;
     }
 
     .mobile-project {
-        display: block;
+        display: block!important;
     }
 }
 
@@ -388,11 +389,11 @@ li:hover {
     }
 
     .about-text{
-        font-size: 17px;
+        font-size: 17px!important;
     }
 
     .project {
-        display: none;
+        display: none!important;
     }
     .view{
         display: none;
