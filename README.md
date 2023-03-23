@@ -6,7 +6,7 @@
 ## Steps to use this project locally
 * Clone this project
 ```
-git clone https://github.com/Utkarsh2138/Portfolio_sit.git
+git clone https://github.com/Utkarsh2138/Portfolio_site.git
 ```
 
 * Install Tailwind CSS
